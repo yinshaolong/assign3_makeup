@@ -60,8 +60,7 @@ EOF
 
 - edit the nginx configuration file using vim through the command 'vim':
 `sudo vim /etc/nginx/nginx.conf`
-
-- comment out the server directive in the http block to avoid conflicts with the server defined in the new configuration file(/etc/nginx/sites-available/nginx-2420.conf):
+- hit “i” (enter insert mode) on the keyboard and comment out the server directive in the http block to avoid conflicts with the server defined in the new configuration file(/etc/nginx/sites-available/nginx-2420.conf):
 
 ```bash
 #server {
@@ -70,6 +69,7 @@ EOF
     ...
 #}
 ```
+- exit vim after saving(escape leaves insert mode, :wq writes and quits): `esc :wq`
 
 - add the following line to the http block:
 ```include /etc/nginx/sites-enabled/*;```
