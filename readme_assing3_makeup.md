@@ -11,7 +11,7 @@
 
 - if asked "Proceed with installation? [Y/n]", type "Y" and press enter
 
-- make the project root directory :
+- make the project root directory (mkdir makes a directory -p creates the directory and parent directories (if they do not exist)):
 ```sudo mkdir -p /web/html/nginx-2420```
 
 
