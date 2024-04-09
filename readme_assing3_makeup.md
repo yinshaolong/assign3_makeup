@@ -1,6 +1,7 @@
 #creating a static file server
 1
--  install vim:
+-  install vim through using the package manager "pacman" and using the option "-S" (which installs one or more packages and their dependencies) to install the package:
+
 ```sudo pacman -S vim```
 
 - if asked "Proceed with installation? [Y/n]", type "Y" and press enter
