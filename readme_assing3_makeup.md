@@ -63,12 +63,13 @@ EOF
 
 - comment out the server directive in the http block to avoid conflicts with the server defined in the new configuration file(/etc/nginx/sites-available/nginx-2420.conf):
 
-```#server {
-#    listen       80;
-#    server_name  localhost;
-...
-
-#}```
+```bash
+#server {
+    #    listen       80;
+    #    server_name  localhost;
+    ...
+#}
+```
 
 - add the following line to the http block:
 ```include /etc/nginx/sites-enabled/*;```
