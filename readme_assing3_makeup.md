@@ -75,6 +75,7 @@ EOF
 ```include /etc/nginx/sites-enabled/*;```
 
 - save the file: `esc :wq`
+
 - create a symbolic link to the sites-enabled directory (this will enable the new configuration file):
 `sudo ln -s /etc/nginx/sites-available/nginx-2420.conf /etc/nginx/sites-enabled`
 -  start the nginx service:
