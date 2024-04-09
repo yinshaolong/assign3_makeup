@@ -1,24 +1,24 @@
-#creating a static file server
-1
+###creating a static file server
+
 -  install vim through using sudo (which temporarily allows users toperform tasks with elevated privileges) the archlinux package manager "pacman" and using the option "-S" (which installs one or more packages and their dependencies) to install the package:
 
 ```sudo pacman -S vim```
 
 - if asked "Proceed with installation? [Y/n]", type "Y" and press enter
-2
+
 -  install nginx:
 ```sudo pacman -S nginx```
-3
+
 - if asked "Proceed with installation? [Y/n]", type "Y" and press enter
-4
+
 - make the project root directory :
 ```sudo mkdir -p /web/html/nginx-2420```
-5
 
-6
+
+
 - create the directory site-enabled:
 ```sudo mkdir /etc/nginx/sites-enabled```
-7
+
 - create a document directory:
 ```sudo mkdir /srv/2420-files```
 
@@ -56,7 +56,7 @@ EOF
  ```
 
 
-9
+
 - edit the nginx configuration file using vim through the command 'vim':
 `sudo vim /etc/nginx/nginx.conf`
 
