@@ -38,7 +38,7 @@
     - `location / {
     try_files $uri $uri/ $uri.html =404;
 }` 
-    -  if neither the original URI nor the URI with the appended trailing slash resolve into an existing file or directory, the request is redirected to the named location which passes it to a proxied server.
+        -  if neither the original URI nor the URI with the appended trailing slash resolve into an existing file or directory, the request is redirected to the named location which passes it to a proxied server.
     - `autoindex on;` -  To configure NGINX to return an automatically generated directory listing instead of HTTP code 404 (source - https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/)
 
 ```bash 
