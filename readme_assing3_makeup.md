@@ -1,4 +1,4 @@
-###creating a static file server
+#creating a static file server
 
 -  install vim through using sudo (which temporarily allows users toperform tasks with elevated privileges) the archlinux package manager "pacman" and using the option "-S" (which installs one or more packages and their dependencies) to install the package:
 
